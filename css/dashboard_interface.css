@@ -1,0 +1,144 @@
+#accordionSidebar {
+    background-color: #051d40;
+}
+
+.navbar {
+    background-color: #daca8d;
+}
+
+.dropdown-item:hover {
+    background-color: #ffde59;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0 , 0.5);
+}
+
+.modal {
+    color: black;
+}
+
+/* Toggled sidebar */
+.sidebar.toggled {
+    width: 56px; /* Smaller width */
+}
+
+/* Sidebar toggle button */
+#sidebarToggleTop {
+    color: #fff;
+    text-decoration: none;
+}
+
+#warningTitle {
+    color: #D22B2B;
+}
+
+.user-box {
+    display: flex; /* Make it a flex container */
+    align-items: center; /* Vertically align items */
+    padding: 15px;
+}
+
+.avatar-lg {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.avatar-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Circular image */
+}
+
+.u-text {
+    margin-left: 15px; /* Space between the image and text */
+}
+
+.u-text h4 {
+    margin: 0; /* Remove default margin */
+    font-size: 16px;
+    font-weight: bold;
+    color: #051d40;
+}
+
+.u-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d; /* Text-muted */
+}
+
+.u-text .btn {
+    margin-top: 10px;
+}
+
+.fa-bars {
+    color: #051d40;
+}
+
+#title {
+    color: #051d40;
+}
+
+.card-header {
+    background-color: #daca8d;
+    color: #051d40;
+}
+
+.submitBtn {
+    background-color: #ffde59 !important;
+    color: black;
+    font-weight: bold;
+}
+
+.submitBtn:hover {
+    background-color: #ffde59 !important;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0 , 0.5);
+}
+
+#userType {
+    color: black;
+}
+
+.cancelBtn {
+    background-color: #D22B2B;
+    color: white;
+    font-weight: bold;
+}
+
+.cancelBtn:hover {
+    background-color: #D22B2B;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0 , 0.5);
+}
+
+.notiClose {
+    background-color: #D22B2B;
+    color: white;
+    font-weight: bold;
+}
+
+.notiClose:hover {
+    background-color: #D22B2B;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0 , 0.5);
+}
+
+.notiConfirm {
+    background-color: #ffde59;
+    color: black;
+    font-weight: bold;
+}
+
+.notiConfirm:hover {
+    background-color: #ffde59;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0 , 0.5);
+}
+
+.modal-body {
+    color: black
+}
